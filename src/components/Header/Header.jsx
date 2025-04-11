@@ -63,7 +63,7 @@ const Header = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{navLink}</ul>
         </div>
-        <div className="navbar-end gap-2.5">
+        <div className="navbar-end gap-4">
           <Link
             to="/donate"
             className="btn border-0 bg-teal-300 outline outline-red-300"
