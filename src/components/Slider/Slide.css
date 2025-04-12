@@ -1,0 +1,9 @@
+.swiper-slide {
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.swiper-slide-active {
+    z-index: 1;
+}
