@@ -67,13 +67,13 @@ const Slider = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent" />
             </div>
 
-            {/* Content Container (90% width) */}
-            <div className="relative flex h-full items-end pb-12 md:pb-16 lg:pb-24">
-              <div className="mx-auto w-[90%] space-y-4 text-white lg:space-y-6">
+            {/* Centered Content Container */}
+            <div className="relative flex h-full items-center justify-center">
+              <div className="mx-auto w-[80%] space-y-4 text-center text-white lg:space-y-6">
                 <h3 className="text-3xl !leading-tight font-bold md:text-4xl lg:text-5xl">
                   {slide.title}
                 </h3>
-                <p className="max-w-[600px] text-lg opacity-95 md:text-xl lg:max-w-[800px] lg:text-2xl">
+                <p className="mx-auto max-w-[600px] text-lg opacity-95 md:text-xl lg:max-w-[800px] lg:text-2xl">
                   {slide.text}
                 </p>
                 <button
